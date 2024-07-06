@@ -138,7 +138,6 @@ button{
 }
 button:hover{
     background: rgba(84, 190, 7, 0.767);
-    box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.274);
     transition: 0.3s;
 }
 
@@ -151,7 +150,6 @@ button:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
     margin-top: -30px;
 }
 .about .img2{
@@ -206,6 +204,8 @@ button:hover{
     color: radial-gradient(103.00% 103.00% at 61% 105%,rgba(140, 58, 170, 0) 64%,rgb(140, 58, 170) 100%)/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 }
 
+/* card2------------------------ */
+
 .card2{
     display: flex;
     justify-items: center;
@@ -259,9 +259,10 @@ button:hover{
     margin-top: 12px;
  }
 .card .card-half p{
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     margin-top: 12px;
+    padding: 4px;
  }
 
 
@@ -277,7 +278,7 @@ button:hover{
 }
 
 .footnam > h2{
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 .footnam > p{
@@ -287,8 +288,19 @@ button:hover{
     font-size: 13px;
 }
 .footer .hii{
-    font-size: 24px;
-    font-weight: 500;
     margin-top: 35px;
     margin-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+    border-top: 1px solid rgba(0, 0, 0, 0.253);
+}
+.info .hii{
+    margin-top: 35px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+    border-top: 1px solid rgba(0, 0, 0, 0.253);
+}
+.hii h1{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 6px 56px;
 }
